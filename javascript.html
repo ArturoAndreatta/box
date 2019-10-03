@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript</title>
+
+    <style>
+
+    </style>
+</head>
+
+
+<body>
+    <h1>eae</h1>
+    <h1 id="h1">eae</h1>
+    <p id="p1">EAE</p>
+
+    <div id="cab"></div>
+
+    <button onclick='document.getElementById("h1").innerHTML = "Olá inner novamente"'>Clicar</button>
+    <script>
+        document.write("Olá mundo!")
+        document.getElementById("h1").innerHTML = "Olá inner"
+        //alert("Meu alerta")
+        console.log("Texto no depurador do navegador")
+        var aluno = "Mario"
+        console.log(aluno)
+        var nome = "MARIO";
+        var arte = aluno;
+        console.log(aluno, nome, arte)
+        var p1 = document.getElementById("p1").innerHTML
+        console.log(p1)
+
+        var texto = ""
+        var i
+        for (i = 1; i < 7; i++) {
+           texto += "<h" + i + ">Ola</h" + i + ">"
+           console.log(texto)
+        }
+
+        document.getElementById("cab").innerHTML = texto
+    </script>
+</body>
+
+</html>
